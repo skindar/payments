@@ -1,0 +1,221 @@
+body {
+	color:#646464; 
+	
+	font-family: "Courier New",monospace;	
+	font-size: 20px;	
+	margin: 5px auto;	
+	max-width: 1400px; 
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+table {
+	color:#646464; 	
+	font-family: "Courier New",monospace;
+	font-size: 20px;	
+}
+img {
+	border: none;
+	vertical-align: middle;
+}
+table.cntr {margin: auto;}
+code {background: #F5F5F5;}
+div.code {margin: 10px 0 10px 0;} 
+hr {
+	height: 1px;
+	border-bottom: 1px solid gray;
+	border-top: none;
+}
+a {
+	color: #6495ED; 
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+a:hover {
+	border-bottom: 1px dotted #6495ED;
+}
+a.non,a.non:hover {
+	border-bottom: none;
+}
+h1,h2,h3,h4 {
+	padding: 2px 0px 2px 0px;
+	margin: 2px 0px 2px 0px;
+}
+h3 {font-size: 1.3em;}
+h2 {font-size: 1.7em;}
+h1 {font-size: 2.3em;}
+ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 10px;
+}
+li {margin-bottom: 15px;}
+.section-menu li {margin-bottom: 20px;}
+th, .thd { 
+	background-color: #DCDCDC; 
+	border: 1px solid gray;	
+	text-align: center;
+	font-family: Tahoma, Courier, monospace;	
+	font-size: 11px;
+	color:#646464;
+}
+
+
+.nheader {
+	margin-top: -10px;
+	padding-left: 70px;
+}
+
+.date {
+	background:transparent url(../img/f_calendar.png) no-repeat scroll 0 0;
+	float:left;
+	padding: 0 19px 5px 0;
+	text-align:center;
+	width:50px;
+	height:63px;
+}
+.date span {
+	color:#FFFFFF;
+	display:block;
+	font-size: 11px;
+	height:16px;
+	line-height:normal;
+	padding-top:7px;
+	padding-bottom: 3px;
+}
+.date .date_day {
+	font-size:20px;
+	font-weight: bold;
+}
+.date .date_month {
+	margin-top: -5px;
+	font-size:11px;
+}
+
+.small {font-size: 85%;}
+.small2 {font-size: 75%;}
+.big {font-size: 1.5em;}
+.normal-font {font-weight: normal;}
+.aright {text-align: right;}
+.vt {vertical-align: top;}
+.just {text-align: justify;}
+.sc {color: #6495ED;}
+
+.spc {border-collapse: collapse;}
+.spc td, .tbord {
+	border: 1px solid silver;
+	font-family: Tahoma, Courier, monospace;	
+	font-size: 14px;
+	color:#646464;
+}
+.spc tr:hover {background-color: #DEFECB;}
+.bbord {
+	border-bottom: 1px solid Gray;	
+	width: 98%;
+}
+a.bbord {
+	color:#646464; 
+	font-family: Tahoma, Courier, monospace;	
+	text-decoration: none;
+}
+a.bbord:hover {text-decoration: underline;}
+.exampletree {
+	min-height: 160px;
+	height: 250px;
+	overflow: auto;
+}
+.cur {cursor: pointer;}
+.centr {text-align: center;}
+.tb {border-top: 1px solid silver;}
+.bb {border-bottom: 1px solid silver;}
+.lb {border-left: 1px solid silver;}
+.rb {border-right: 1px solid silver;}
+.bord {border: 1px solid silver;}
+.delim {border-bottom: 3px dotted silver;}
+
+.dis {display: none;}
+.abs {position: absolute;}
+.rel {position: relative;}
+.hid {visibility: hidden;}
+.fl {float: left;}
+.clr {clear: both;}
+
+.menu {
+	height: 190px;
+	min-height: 190px;
+}
+
+.txtfield {
+	border: 1px solid Gray;
+	margin-bottom: 2px;
+}
+.but {
+	border: 1px solid Gray;
+	background-color: #DCDCDC;
+	padding: 1px 1px 1px 1px;
+}
+#exmpl {
+	position: absolute; 
+	left: 330px; 
+	top: 110px;
+	width: 150px; 
+	height: 50px; 
+	background-color: #DCDCDC;
+	border: 1px solid Black;
+	overflow: auto;
+}
+#mess {
+	background-color: #F5F5F5;
+	padding: 10px;
+}
+.mess {
+	background-color: #F5F5F5;
+}
+.slider {
+	background-image: url(../img/slider_bg.gif);
+	background-repeat: repeat-x;	
+}
+.knob {
+	position: relative;
+	background-image: url(../img/knob.gif);
+}
+.divwin {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border: 1px solid gray;
+	background: white;
+	display: none;
+	margin: 20px 20px 20px 20px;
+	text-align: center;
+}
+.closeButton {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 2px 4px 2px 4px;
+}
+
+.pad1 {padding-right: 50px;}
+.pad5 {padding: 5px;}
+.pad3 {padding: 10px;}
+.mar1 {margin-top: 4px;}
+
+.bg {background-color: #FFFFFF;}
+.odd {background-color: #F5F5F5;}
+
+.tooltip {
+	position: absolute;
+	z-index: 1000;
+	border: 1px solid gray;
+	background-color: #FFFFD4;
+	padding: 10px 10px 10px 10px;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+
+.pager .current {font-size: 2em;}

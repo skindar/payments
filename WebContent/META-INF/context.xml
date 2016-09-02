@@ -1,0 +1,19 @@
+
+<Context>
+	<Resource name="jdbc/paymentsdb" auth="Container" type="javax.sql.DataSource"
+		maxIdle="60" maxWait="10000" username="root" password="root"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/paymentsdb"
+		maxActive="50" />
+		
+		
+	<Realm className="org.apache.catalina.realm.DataSourceRealm"
+           userTable="customers"
+           userNameCol="customer_email"
+           userCredCol="password"
+           userRoleTable="roles"
+           roleNameCol="role_name"
+           localDataSource="true"
+           removeAbandoned="true" 
+           dataSourceName="jdbc/paymentsdb" digest="MD5"/>
+
+</Context>

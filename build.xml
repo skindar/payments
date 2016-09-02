@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Payments" default="compile" basedir=".">
+	
+	<path id="common_library">
+		<pathelement location="apache-tomcat-7.0.70\lib\servlet-api.jar"/>
+	</path>
+	
+	<property name="package" value="src\ua\nure\fiedietsov\Payments" />
+	
+	<target name="compile" description="compile java">
+		<javac destdir="WebContent\WEB-INF\classes" includeantruntime="false">
+			<classpath refid="common_library"/>
+			<src path="${package}" />
+		</javac>
+	</target>
+	
+	<target name="deploy" depends="compile"></target>
+</project>

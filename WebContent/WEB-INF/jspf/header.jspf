@@ -1,0 +1,26 @@
+<%--=========================================================================== 
+Header (top area). 
+===========================================================================--%>
+
+	<fmt:message key="mypays.button.accs" var="buttonAccs" />
+	<input type="button" class="menu" value="${buttonAccs}"
+				onclick="location.href='./mypays.jsp'" />
+	<fmt:message key="mypays.button.history" var="buttonHistory" />	
+	<input type="button"  class="menu" value="${buttonHistory}"
+				onclick="location.href='./history.jsp'" />
+	<fmt:message key="mypays.button.transfer" var="buttonTransfer" />	
+	<input type="button" class="menu" value="${buttonTransfer}"
+				onclick="location.href='./pays.jsp'" />	
+	<fmt:message key="mypays.button.pays" var="buttonPayments" />	
+	<input type="button" class="menu" value="${buttonPayments}"
+				onclick="location.href='./payments.jsp'" />
+	<fmt:message key="mypays.button.cart" var="buttonCart" />	
+	<input type="button" class="menu" value="${buttonCart}"
+				onclick="location.href='./getpays'" />
+	<fmt:message key="mypays.button.credit" var="buttonCredit" />								
+	<input type="button" class="menu" value="${buttonCredit} "
+				onclick="location.href='./deposit.jsp'" />
+	<fmt:message key="mypays.button.addCard" var="buttonAddCard" />		
+	<input type="button" class="menu" value="${buttonAddCard}"
+				onclick="location.href='./addnewcard.jsp'" />	
+

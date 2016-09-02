@@ -1,0 +1,41 @@
+body {
+	color:#646464; 
+	
+	font-family: "Courier New",monospace;	
+	font-size: 20px;	
+	margin: 5px auto;	
+	max-width: 1400px; 
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+
+
+code {background: #F5F5F5;}
+div.code {margin: 10px 0 10px 0;} 
+hr {
+	height: 1px;
+	border-bottom: 1px solid gray;
+	border-top: none;
+}
+a {
+	color: #6495ED; 
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+a:hover {
+	border-bottom: 1px dotted #6495ED;
+}
+a.non,a.non:hover {
+	border-bottom: none;
+}
+h1,h2,h3,h4 {
+	padding: 2px 0px 2px 0px;
+	margin: 2px 0px 2px 0px;
+}
+
+.login-field {clear:both; text-align:right;}
+label {float:left;}
+.main {float:left}
